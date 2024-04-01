@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'ClassicaPro';
+    src: url(../fonts/ClassicaPro-Light.ttf);
+}
+
+@font-face {
+    font-family: 'BlackerSansPro';
+    src: url(../fonts/BlackerSansPro-Extralight.ttf);
+}
+
+.p1 {
+    font-size: 2rem;
+    display: inline;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.p2 {
+    font-size: 2rem;
+}
+
+.ph {
+    font-size: 2.7rem;
+}

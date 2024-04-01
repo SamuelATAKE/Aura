@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/section.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+</head>
+
+<body style="overflow-x: hidden;">
+    <nav>
+        <ul class="left">
+            <li><a href="about.html">A propos</a></li>
+        </ul>
+        <div class="center">
+            <a href="index.html">
+                <img src="assets/img/logo_star.png" alt="" class="logo">
+            </a>
+        </div>
+        <ul class="right">
+            <li><a href="services.html">Nos Services</a></li>
+            <li><a href="contact.html">Nous contacter</a></li>
+        </ul>
+    </nav>
+    <header>
+        <img src="assets/img/logo_black.png" alt="">
+    </header>
+    <!-- <div class="homehead">
+        <header>
+            <a href="#" class="about_home">A propos</a>
+            <a href="#" class="logo">
+                <img src="assets/img/logo_star.png" alt="Logo Aura" />
+            </a>
+            <nav>
+                <ul class="sidebar">
+                    <li onClick=hideSidebar()><a href="#">X</a></li>
+                    <li><a href="#">Nos Services</a></li>
+                    <li><a href="#">Nous Contacter</a></li>
+                </ul>
+                <ul>
+                    <li class="hideOnMobile"><a href="#">Nos Services</a></li>
+                    <li class="hideOnMobile"><a href="#">Nous Contacter</a></li>
+                    <li class="menu-button" onClick=showSidebar()><a href="#">#</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container_logo_black">
+            <img src="assets/img/logo_black.png" class="logo_black" alt="Logo black Aura" />
+        </div>
+    </div> -->
+    <main>
+        <section class="hero">
+            <div>
+                <h1>Bienvenue chez Aura, l'art de sublimer vos communications et événements</h1>
+            </div>
+            <br />
+            <p>Aura est une agence de communication audacieuse et créative, dédiée à la mise en lumière de votre marque.
+                Nous mettons notre expertise en marketing et communication au service de votre réussite.
+                Aura orchestre vos communications et événements grâce à la compréhension de votre vision et des
+                solutions percutantes pour une expérience inoubliable et un succès retentissant.</p>
+        </section>
+        <section class="services">
+            <div class="services-title">
+                <h1>Découvrez nos services et bénéficiez de notre expertise pour renforcer votre entreprise</h1>
+            </div>
+            <br />
+            <div class="the-services">
+                <div class="service service-crea">
+                    <h3>CREA 360°</h3>
+                    <img src="assets/img/crea360.png" alt="Service 1">
+                </div>
+                <div class="service service-event">
+                    <h3>EVENT</h3>
+                    <img src="assets/img/event.png" alt="Service 2">
+                </div>
+                <div class="service service-tech">
+                    <h3>TECH</h3>
+                    <img src="assets/img/tech.png" alt="Service 3">
+                </div>
+            </div>
+
+
+        </section>
+        <section class="more">
+            <div class="moretext">
+                <p>Aura est une agence de marketing audacieuse et
+                    créative, composée d’expert en marketing et
+                    communication, dédiée à faire rayonner votre marque.</p>
+                <p>Chez Aura, nous comprenons vos besoins, traduisons
+                    votre vision et créons des solutions de communication
+                    percutantes qui vous permettront d’atteindre vos
+                    objectifs.</p>
+                <h3>En savoir plus <svg class="w-[148px] h-[48px] text-gray-800 dark:text-white" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.4"
+                            d="M19 12H5m14 0-4 4m4-4-4-4" />
+                    </svg>
+
+                </h3>
+            </div>
+            <div class="morevideo">
+                <video class="morevideo_video" controls>
+                    <source src="assets/videos/homepagevideo.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+        <section class="home_contact">
+            <div class="home_contact_brand">
+                <img class="home_contact_img" src="assets/img/message_homepage.png" alt="Message home page">
+            </div>
+            <div class="home_contact_brand">
+                <form action="">
+                    <input class="nom" type="text" placeholder="Nom">
+                    <input class="prenom" type="text" placeholder="Prénom">
+                    <input class="email" type="text" placeholder="Entreprise (facultatif)">
+                    <input class="email" type="text" placeholder="Email">
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button class="send_button">Envoyer</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+    <footer>
+        <img src="assets/img/logo_thumbnail_red.png" alt="Logo thumbnail rouge" />
+
+        <!-- <div></div>
+        <p>Copyright &copy; 2024 Aura</p>
+        <a href="#">Mentions légales</a> -->
+    </footer>
+</body>
+
+</html>

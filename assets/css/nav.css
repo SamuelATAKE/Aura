@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'ClassicaPro';
+    src: url(../fonts/ClassicaPro-Light.ttf);
+}
+
+@font-face {
+    font-family: 'BlackerSansPro';
+    src: url(../fonts/BlackerSansPro-Extralight.ttf);
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    padding: 0.5rem 1rem;
+    display: grid;
+    grid-template-columns: 45% 10% 45%;
+    background-image: url("../img/home.png");
+    z-index: 999;
+}
+
+nav .logo {
+    width: min(max(100%, 4rem), 5rem);
+    max-height: 5rem;
+    margin: auto;
+}
+
+
+nav>ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+nav>.right {
+    justify-content: flex-end;
+}
+nav>.left {
+    justify-content: flex-start;
+}
+
+nav>ul a {
+    font-family: 'ClassicaPro', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    padding: 0.4rem 2rem;
+}
