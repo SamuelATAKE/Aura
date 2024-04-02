@@ -13,7 +13,7 @@
 </head>
 
 <body style="overflow-x: hidden;">
-    <nav>
+    <nav class="full">
         <ul class="left">
             <li><a href="about.html">A propos</a></li>
         </ul>
@@ -26,6 +26,22 @@
             <li><a href="services.html">Nos Services</a></li>
             <li><a href="contact.html">Nous contacter</a></li>
         </ul>
+    </nav>
+    <nav class="mobile">
+        <!-- <ul class="left">
+            <li><a href="about.html">A propos</a></li>
+        </ul> -->
+        <a href="index.html">
+            <img src="assets/img/logo_star.png" alt="" class="logo">
+        </a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="about.html">A propos</a></li>
+                <li><a href="services.html">Nos Services</a></li>
+                <li><a href="contact.html">Nous contacter</a></li>
+            </ul>
+        </div>
+        <img src="assets/img/menu-btn.png" alt="" class="menu-mobile">
     </nav>
     <header>
         <img src="assets/img/logo_black.png" alt="">
@@ -114,7 +130,7 @@
                 <img class="home_contact_img" src="assets/img/message_homepage.png" alt="Message home page">
             </div>
             <div class="home_contact_brand">
-                <form action="">
+                <form action="" class="home_contact_form">
                     <input class="nom" type="text" placeholder="Nom">
                     <input class="prenom" type="text" placeholder="Prénom">
                     <input class="email" type="text" placeholder="Entreprise (facultatif)">
@@ -143,5 +159,14 @@
         <a href="#">Mentions légales</a> -->
     </footer>
 </body>
+
+<script>
+    const menuMobile = document.querySelector(".menu-mobile")
+    const navLinks = document.querySelector(".nav-links")
+
+    menuMobile.addEventListener('click', () => {
+        navLinks.classList.toggle('mobile-menu')
+    })
+</script>
 
 </html>
