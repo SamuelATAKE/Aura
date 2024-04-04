@@ -9,7 +9,7 @@
 }
 
 header {
-    background-color: #f2f2f2!important;
+    background-color: #f2f2f2 !important;
 }
 
 .services {
@@ -130,7 +130,7 @@ header {
 
 .evenementiel {
     padding: 50px;
-    align-items: center;
+    /* align-items: center; */
     text-align: center;
     height: 600px;
     background-color: #f2f2f2;
@@ -148,11 +148,12 @@ header {
 
 .texte-evenementiel {
     font-size: 1.3rem;
+    width: 100%;
 }
 
 
 .morevideo_video {
-    width: 400px;
+    width: 100%;
     height: 400px;
     object-fit: cover;
     border-width: 2px;
@@ -165,9 +166,10 @@ header {
     padding: 50px;
     text-align: center;
     background-color: white;
-    height: 800px;
+    height: 500px;
     margin-top: 100px;
     margin: 50px;
+    /* width: 100%; */
 }
 
 .support_technique_img {
@@ -194,55 +196,142 @@ header {
     font-size: 1.3rem;
 }
 
-input {
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(200, 200, 200);
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 16px;
-    padding-right: 16px;
-    font-size: 16px;
-    border-radius: 20px;
-    margin-bottom: 12px;
+@media screen and (max-width: 930px) {
+    .support_technique {
+        height: 700px;
+    }
 }
 
-textarea {
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(200, 200, 200);
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 16px;
-    padding-right: 16px;
-    font-size: 16px;
-    border-radius: 20px;
-    margin-bottom: 12px;
-    width: 400px;
+@media screen and (max-width: 800px) {
+    .row {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100%;
+    }
+
+    .card {
+        width: 100% !important;
+        position: static !important;
+        margin-bottom: 30px;
+        display: inline-block !important;
+    }
+
+    .support_technique {
+        height: 100% !important;
+    }
+
+    .card0 {
+        width: 100% !important;
+        position: static !important;
+        margin-bottom: 30px;
+        display: inline !important;
+    }
+
+    .evenementiel {
+        height: 100% !important;
+    }
+
+    .support_technique_img {
+        height: 550px;
+        width: 100%;
+    }
+
 }
 
-.nom {
-    width: 198px;
+@media screen and (max-width: 590px) {
+    .hero_services h1 {
+        width: 100% !important;
+        font-size: 3em !important;
+    }
+
+    .hero_services p {
+        width: 100% !important;
+        font-size: 1.8em !important;
+    }
+
+    header h2 {
+        width: 100%;
+    }
+
+    .support_technique img {
+        margin-bottom: 600px;
+        height: 400px !important;
+        width: 100% !important;
+    }
 }
 
-.prenom {
-    width: 198px;
+@media screen and (max-width: 471px) {
+
+    .hero_services {
+        width: 100% !important;
+    }
+
+    .hero_services h1 {
+        width: 100% !important;
+        font-size: 2.2em !important;
+    }
+
+    .hero_services p {
+        width: 100% !important;
+        font-size: 1.4em !important;
+    }
+
+    header h2 {
+        width: 100%;
+    }
+
+    .card p {
+        font-size: 1.2rem !important;
+    }
+
+
+    .support_technique img {
+        margin-bottom: 100px;
+        height: 250px !important;
+        width: 100% !important;
+    }
+
+    .title-support {
+        font-size: 1.7rem !important;
+        width: 100% !important;
+    }
+
+    .subtitle-support {
+        font-size: 1.1rem !important;
+        width: 100%;
+    }
+    
+    .text-support {
+        font-size: 1rem;
+    }
+    
 }
 
-.email {
-    display: block;
-    width: 400px;
-}
 
-.send_button {
-    background-color: rgb(213, 220, 230);
-    color: rgb(0, 0, 0);
-    border: none;
-    width: 400px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 16px;
-    display: block;
+@media screen and (max-width: 413px) {
+
+    .hero_services {
+        width: 100% !important;
+    }
+
+    .hero_services h1 {
+        width: 100% !important;
+        font-size: 2.2em !important;
+    }
+
+    .hero_services p {
+        width: 100% !important;
+        font-size: 1.4em !important;
+    }
+
+    header h2 {
+        width: 100%;
+        font-size: 3rem;
+    }
+
+    .support_technique img {
+        margin-bottom: 50px;
+        height: 200px !important;
+        width: 100% !important;
+    }
 }

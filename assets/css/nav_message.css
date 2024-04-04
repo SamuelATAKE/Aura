@@ -58,7 +58,7 @@ nav>ul a {
 
 @media screen and (max-width: 900px) {
     nav {
-        padding: 0px;
+        padding: 0.5rem 1rem !important;
     }
 
     nav .logo {

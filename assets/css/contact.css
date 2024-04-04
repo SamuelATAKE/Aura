@@ -9,16 +9,18 @@
 }
 
 .form-div {
-    height: 700px;
+    height: 100%;
 }
 
 .header-class {
     background-image: url('../img/contact.png');
     border-radius: 0 0 80px 80px;
+    height: 800px;
 }
 
 .form {
     margin-top: 50px;
+    width: 100%;
 }
 
 .contact_img {
@@ -111,4 +113,34 @@ textarea {
 
 .map_section {
     height: 400px;
+}
+
+
+@media screen and (max-width: 900px) {
+
+    .row {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100%;
+    }
+
+    .card {
+        width: 100% !important;
+        position: static !important;
+        margin-bottom: 30px;
+        display: inline-table !important;
+    }
+
+    .header-class {
+        height: 1200px;
+    }
+
+    .contact_img {
+        margin-top: 80px;
+        width: 100% !important;
+    }
+
+    .header-class {
+        width: 100% !important;
+    }
 }
