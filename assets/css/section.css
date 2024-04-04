@@ -9,7 +9,7 @@
 }
 
 .hero {
-    /* background-color: #f2f2f2; */
+    /* background-color: #f9f7ee; */
     padding: 50px;
     text-align: center;
 }
@@ -50,7 +50,7 @@
 .services {
     padding: 50px;
     text-align: center;
-    background-color: #f2f2f2;
+    background-color: #f9f7ee;
     height: 1300px;
 }
 
@@ -230,7 +230,10 @@
     }
 
     .the-services {
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
+        display: block !important;
+        width: 100% !important;
+        max-width: 100%;
     }
 
     .service img {
@@ -245,7 +248,27 @@
 
 
     .service-event {
+        width: 100% !important;
+        position: static !important;
         margin-top: 50px !important;
+        display: inline !important;
+        max-width: 100% !important;
+    }
+
+    .service-crea {
+        width: 100% !important;
+        position: static !important;
+        margin-top: 50px !important;
+        display: inline !important;
+        max-width: 100% !important;
+    }
+
+    .service-tech {
+        width: 100% !important;
+        position: static !important;
+        margin-top: 50px !important;
+        display: inline !important;
+        max-width: 100% !important;
     }
 
 }
@@ -292,7 +315,7 @@
         margin-left: 10px !important;
         margin-right: 7px !important;
     }
-    
+
 }
 
 .more {
@@ -431,4 +454,28 @@ textarea {
     font-weight: bold;
     border-radius: 16px;
     display: block;
+}
+
+@media screen and (max-width: 290px) {
+    .hero h1 {
+        font-size: 2.0rem !important;
+        width: 130% !important;
+        margin-left: -30px !important;
+    }
+
+
+    .hero p {
+        font-size: 1.2em !important;
+        width: 130% !important;
+        margin-left: -30px !important;
+    }
+
+    .nom {
+        width: 100% !important;
+    }
+
+    .prenom {
+        width: 100% !important;
+    }
+
 }

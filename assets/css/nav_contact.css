@@ -35,9 +35,11 @@ nav>ul {
     list-style: none;
     align-items: center;
 }
+
 nav>.right {
     justify-content: flex-end;
 }
+
 nav>.left {
     justify-content: flex-start;
 }
@@ -53,6 +55,12 @@ nav>ul a {
 
 .mobile {
     display: none;
+}
+
+@media screen and (max-width: 950px) {
+    nav>ul a {
+        font-size: 1.3rem !important;
+    }
 }
 
 

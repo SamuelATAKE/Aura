@@ -15,7 +15,14 @@
 .header-class {
     background-image: url('../img/contact.png');
     border-radius: 0 0 80px 80px;
-    height: 800px;
+    height: auto;
+}
+
+.header-class p {
+    font-family: 'ClassicaPro', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 600;
 }
 
 .form {
@@ -81,34 +88,39 @@ textarea {
     font-size: 16px;
     border-radius: 20px;
     margin-bottom: 12px;
-    width: 400px;
+    width: 100%;
 }
 
 .nom {
-    width: 198px;
+    width: 49%;
 }
 
 .prenom {
-    width: 198px;
+    width: 49%;
 }
 
 .email {
     display: block;
-    width: 400px;
+    width: 100%;
 }
+
 
 .send_button {
     font-family: 'ClassicaPro', sans-serif;
     background-color: rgb(213, 220, 230);
     color: rgb(0, 0, 0);
     border: none;
-    width: 400px;
+    width: 100%;
     padding-top: 14px;
     padding-bottom: 14px;
     font-size: 18px;
     font-weight: bold;
     border-radius: 16px;
     display: block;
+}
+
+.header-class {
+    height: 700px;
 }
 
 .map_section {
@@ -127,12 +139,18 @@ textarea {
     .card {
         width: 100% !important;
         position: static !important;
-        margin-bottom: 30px;
-        display: inline-table !important;
+        display: inline !important;
+        margin-bottom: 50px !important;
+        padding-left: 10px !important;
+        padding-right: 20px !important;
     }
 
     .header-class {
-        height: 1200px;
+        height: 1400px;
+    }
+
+    .header-class p {
+        padding-top: 110px;
     }
 
     .contact_img {
@@ -140,7 +158,13 @@ textarea {
         width: 100% !important;
     }
 
-    .header-class {
+    /* .header-class {
         width: 100% !important;
+    } */
+
+    .form {
+        width: 100% !important;
+        padding-left: 10px !important;
+        padding-right: 20px !important;
     }
 }

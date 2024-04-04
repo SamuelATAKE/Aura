@@ -9,7 +9,7 @@
 }
 
 header {
-    background-color: #f2f2f2 !important;
+    background-color: #f9f7ee !important;
 }
 
 .services {
@@ -52,7 +52,7 @@ header {
 }
 
 .hero_services {
-    background-color: #f2f2f2;
+    background-color: #f9f7ee;
     padding: 50px;
     text-align: center;
     border-style: solid;
@@ -133,11 +133,11 @@ header {
     /* align-items: center; */
     text-align: center;
     height: 600px;
-    background-color: #f2f2f2;
+    background-color: #f9f7ee;
 }
 
 .titre-evenementiel {
-    font-size: 2.2rem;
+    font-size: 2.1rem;
 }
 
 .sous-titre-evenementiel {
@@ -214,6 +214,7 @@ header {
         position: static !important;
         margin-bottom: 30px;
         display: inline-block !important;
+        max-width: 100% !important;
     }
 
     .support_technique {
@@ -282,6 +283,7 @@ header {
 
     .card p {
         font-size: 1.2rem !important;
+        width: 100% !important;
     }
 
 
@@ -300,11 +302,11 @@ header {
         font-size: 1.1rem !important;
         width: 100%;
     }
-    
+
     .text-support {
         font-size: 1rem;
     }
-    
+
 }
 
 
@@ -334,4 +336,97 @@ header {
         height: 200px !important;
         width: 100% !important;
     }
+
+    .subtitle-support {
+        font-size: 1.6rem;
+        color: gray;
+        width: 200% !important;
+        margin-left: -83px !important;
+        margin-right: -15px !important;
+    }
+
+    .text-support {
+        font-size: 1.3rem;
+        width: 200% !important;
+        margin-left: -83px !important;
+        margin-right: -15px !important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    header h2 {
+        font-size: 2.5rem !important;
+    }
+
+    .hero_services {
+        width: 100% !important;
+    }
+
+    .hero_services p {
+        width: 100% !important;
+        font-size: 1.2em !important;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    header h2 {
+        font-size: 2.0rem !important;
+    }
+
+    .hero_services {
+        width: 100% !important;
+    }
+
+    .hero_services p {
+        width: 100% !important;
+        font-size: 1.0rem !important;
+    }
+
+    .card h3 {
+        font-size: 1.2rem !important;
+    }
+
+    .card p {
+        font-size: 0.9rem !important;
+    }
+
+    .title-support {
+        font-size: 1rem !important;
+        /* width: max-content !important; */
+        text-align: center !important;
+        width: 300% !important;
+        margin-left: -80px;
+        margin-right: -55px;
+    }
+
+    .subtitle-support {
+        font-size: 1rem !important;
+        width: 300% !important;
+        margin-left: -80px;
+        margin-right: -55px;
+    }
+
+    .text-support {
+        font-size: 0.8rem !important;
+        width: 300% !important;
+        margin-left: -80px;
+        margin-right: -55px;
+    }
+
+    .titre-evenementiel {
+        font-size: 1.2rem !important;
+    }
+
+    .sous-titre-evenementiel {
+        font-size: 1.1rem !important;
+        width: 100%;
+    }
+
+    .texte-evenementiel {
+        font-size: 1.0rem;
+        width: 150% !important;
+        margin-left: -45px;
+        margin-right: -75px !important;
+    }
+
 }
